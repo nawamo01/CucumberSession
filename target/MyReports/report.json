@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Customer open uber application",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_open_uber_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Customer enters username and password",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_enters_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer choose car type",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_choose_car_type()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T15:08:43.538Z",
+        "line": 9,
+        "name": "\"Uber car type Sedan\"",
+        "description": "",
+        "id": "\"uber-car-types\";\"uber-car-type-sedan\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Customer select Sedan car for ride",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_select_sedan_car_for_ride()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The pick up point is \"Chennaione\" And drop point is \"Bangalore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennaione\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefinition.UberCarType.the_pick_up_point_is_and_drop_point_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Customer pays 8000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8000",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinition.UberCarType.customer_pays(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Customer open uber application",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_open_uber_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Customer enters username and password",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_enters_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer choose car type",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_choose_car_type()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T15:08:43.839Z",
+        "line": 15,
+        "name": "\"Uber car type SUV\"",
+        "description": "",
+        "id": "\"uber-car-types\";\"uber-car-type-suv\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Customer select SUV car for ride",
+            "match": {
+              "location": "StepDefinition.UberCarType.customer_select_suv_car_for_ride()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The pick up location is \"Bangalore\" And drop point is \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.UberCarType.the_pick_up_location_is_and_drop_point_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Customer provide 6000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6000",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.UberCarType.customer_provide(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "\"Uber Car Types\"",
+    "description": "",
+    "id": "\"uber-car-types\"",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/AppFeatures/Uber_BG_Tags.feature",
+    "tags": []
+  }
+]

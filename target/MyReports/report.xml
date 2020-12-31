@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="1.015">
+    <testcase classname="&quot;Uber Car Types&quot;" name="&quot;Uber car type Sedan&quot;" time="0.2">
+        <system-out><![CDATA[Given Customer open uber application........................................passed
+And Customer enters username and password...................................passed
+And Customer choose car type................................................passed
+When Customer select Sedan car for ride.....................................passed
+Then The pick up point is "Chennaione" And drop point is "Bangalore"........passed
+Then Customer pays 8000.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="&quot;Uber Car Types&quot;" name="&quot;Uber car type SUV&quot;" time="0.021">
+        <system-out><![CDATA[Given Customer open uber application........................................passed
+And Customer enters username and password...................................passed
+And Customer choose car type................................................passed
+When Customer select SUV car for ride.......................................passed
+Then The pick up location is "Bangalore" And drop point is "Hyderabad"......passed
+Then Customer provide 6000..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
